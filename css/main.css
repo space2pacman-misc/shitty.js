@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+.container {
+  width: 815px;
+  margin: 100px auto;
+}
+
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+  border-left: 5px solid;
+  border-right: 5px solid;
+  border-top: 5px solid;
+}
+
+.rows:last-child {
+  border-bottom: 5px solid;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  border-right: 5px solid;
+}
+
+.box:last-child {
+  border-right: none;
+}
+
+.logo {
+  width: 400px;
+}
+
+.button-run {
+  background-color: #28a745;
+  border: none;
+  color: #fff;
+  padding: 6px 12px;
+  width: 400px;
+  font-size: 24px;
+  font-family: Arial;
+  cursor: pointer;
+}
+
+#editor {
+  width: 400px;
+  height: 361px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  font-size: 24px;
+  font-family: Arial;
+  padding: 0px 20px;
+}
+
+.log {
+  font-family: Arial;
+  padding: 20px 20px;
+}
+
+.log-line {
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.log-line:first-child {
+  border-top: 1px solid #dcdcdc;
+}
+
+.desc {
+  font-family: Arial;
+  padding: 20px 20px;
+}
+
+.box-100h {
+  height: 100%;
+}
+
+.code {
+  background: #17a2b8;
+  color: #fff;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-top: 10px;
+}
